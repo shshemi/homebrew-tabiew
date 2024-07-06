@@ -1,0 +1,26 @@
+name: Homebrew Installation Test
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test-homebrew-installation:
+    runs-on: macos-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Homebrew
+      run: brew update
+
+    - name: Add homebrew-tabiew tap
+      run: brew tap shshemi/homebrew-tabiew
+
+    - name: Install Tabiew
+      run: brew install tabiew
+
+    - name: Check if Tabiew is installed
+      run: tw --version
