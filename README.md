@@ -2,7 +2,7 @@
 
 This repository contains the [Homebrew](https://brew.sh/) tap for installing Tabiew on macOS.
 
-## What is tabiew?
+## What is Tabiew?
 
 Tabiew is a lightweight, terminal-based application to view and query delimiter separated value formatted documents, such as CSV and TSV files. [[Link to Tabiew]](https://github.com/shshemi/tabiew)
 
