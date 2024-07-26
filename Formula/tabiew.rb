@@ -4,7 +4,7 @@ class Tabiew < Formula
     url "https://github.com/shshemi/tabiew/archive/refs/tags/v0.6.1.tar.gz"
     version "0.6.1"
     license "MIT"
-    sha256 "66939c694dc8aa18876f7d2cd37d84050defd2610c4fd2ff89889bd39782305b"
+    sha256 "2f7e13e27f0e8cf7c9b135d1c7480a65b6ad86c3f984205854051c6dbbeba97c"
   
     depends_on "rust" => :build
   
