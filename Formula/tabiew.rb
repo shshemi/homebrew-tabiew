@@ -1,10 +1,10 @@
 class Tabiew < Formula
     desc "Tabiew is a lightweight, terminal-based application to view and query delimiter separated value formatted documents, such as CSV and TSV files."
     homepage "https://github.com/shshemi/tabiew"
-    url "https://github.com/shshemi/tabiew/archive/refs/tags/v0.6.0.tar.gz"
-    version "0.6.0"
+    url "https://github.com/shshemi/tabiew/archive/refs/tags/v0.6.1.tar.gz"
+    version "0.6.1"
     license "MIT"
-    sha256 "c6b779d5e9c793f3d66bf0924a5150bc3f13cce24f4f7193a72a72113f0e7d4d"
+    sha256 "66939c694dc8aa18876f7d2cd37d84050defd2610c4fd2ff89889bd39782305b"
   
     depends_on "rust" => :build
   
