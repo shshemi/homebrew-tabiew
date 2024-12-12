@@ -1,10 +1,10 @@
 class Tabiew < Formula
     desc "Tabiew is a lightweight TUI application to view and query tabular data files, such as CSV, TSV, and parquet."
     homepage "https://github.com/shshemi/tabiew"
-    url "https://github.com/shshemi/tabiew/archive/refs/tags/v0.7.1.tar.gz"
-    version "0.7.1"
+    url "https://github.com/shshemi/tabiew/archive/refs/tags/v0.8.0.tar.gz"
+    version "0.8.0"
     license "MIT"
-    sha256 "a9ba57db42f049ee556dbf967d5a72e3803ebd87bfe5bfe75c330a7f1bcb4a1d"
+    sha256 "d8f5a7ab8373d8cb1ca88a8d921f0ce0f44ff34bf5fdbf6afd170594ba28df9a"
   
     depends_on "rust" => :build
   
